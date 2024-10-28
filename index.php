@@ -6,18 +6,12 @@
 
     $ime = "Milos";
     $visina = 170.0003;
-    $godine = 30;
 
     if($ime == "Milos") {
         echo "tacno";
     }
 
-    if( $godine == 18 ) {
-        echo "punoletni ste";
-    }
-    else {
-        echo "imate $godine godina";
-    }
+
 
     if( $visina < 170 ) {
         echo "niski ste";
@@ -70,5 +64,16 @@
         echo "vi niste programer";
     }
 
+
+
+    $godine = 18;
+    $kazne = false;
+
+
+    if( $godine >= 18 && $kazne == false ){
+        echo "mozete da polazete";
+    } else {
+        echo "ne mozete da polazete";
+    }
 
 ?>
