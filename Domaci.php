@@ -1,14 +1,19 @@
 
 <?php
 
-    $ime = "AdminisTRator";
+
+    $ime = "AdmInisTRatoR";
     $lozinka = "mojaSifraJeSigurna";
 
 
 
-    if( strtolower($ime) == "administrator" && $lozinka == "mojaSifraJeSigurna"){
+    if( strtolower($ime) == "administrator" && $lozinka == "mojaSifraJeSigurna" ){
         echo "Dobro dosao administartore"."<br>";
     }
+
+
+
+    //
 
 
     $trenutnoVreme = date("H");
